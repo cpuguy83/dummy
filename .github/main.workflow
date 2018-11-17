@@ -16,5 +16,5 @@ action "GitHub Action for Docker-1" {
   uses = "actions/docker/cli@6495e70"
   needs = ["GitHub Action for Docker"]
   runs = "docker"
-  args = "run -i /bin/sh -c 'echo $(</dev/stdin)'"
+  args = "run -i busybox /bin/sh -c 'echo $(</dev/stdin)'"
 }
