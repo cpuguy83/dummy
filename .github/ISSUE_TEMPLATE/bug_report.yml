@@ -1,0 +1,51 @@
+name: Bug report
+description: Create a report to help us improve
+title: '[Bug]: '
+labels:
+  - kind/bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug!
+        If this is a security issue please report it to the [Docker Security team](mailto:security@docker.com).
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please give a clear and concise description of the bug
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduce
+      description: Steps to reproduce the bug
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What is the expected behavior?
+  - type: textarea
+    id: version
+    attributes:
+      label: docker version
+      description: Output of `docker version`
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: docker info
+      description: Output of `docker info`
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Info
+      description: Additional info you want to provide such as logs, system info, environment, etc.
+    validations:
+      required: false
