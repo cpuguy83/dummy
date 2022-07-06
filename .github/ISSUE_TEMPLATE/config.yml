@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Docker Security
-    email: security@docker.com
-    about: Please email security issues to the Docker Security team.
+  - name: Security and Vulnerabilities
+    url: https://github.com/moby/moby/blob/master/SECURITY.md
+    about: Please report any security issues or vulnerabilities responsibly to the Docker security team.
   - name: Questions and Discussions
     url: https://github.com/moby/moby/discussions/new
     about: Use Github Discussions to ask questions and/or open discussion topics.
