@@ -33,17 +33,17 @@ body:
     attributes:
       label: docker version
       description: Output of `docker version`
+      render: bash
     validations:
       required: true
-    render: bash
   - type: textarea
     id: info
     attributes:
       label: docker info
       description: Output of `docker info`
+      render: bash
     validations:
       required: true
-    render: bash
   - type: textarea
     id: additional
     attributes:
