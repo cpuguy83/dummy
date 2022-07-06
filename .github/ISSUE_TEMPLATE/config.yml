@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Docker Security
+    url: mailto:security@docker.com
+    about: Please email security issues to the Docker Security team.
+  - name: Questions and Discussions
+    url: https://github.com/moby/moby/discussions/new
+    about: Use Github Discussions to ask questions and/or open discussion topics.
