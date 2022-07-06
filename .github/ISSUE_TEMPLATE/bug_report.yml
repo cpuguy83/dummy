@@ -35,6 +35,7 @@ body:
       description: Output of `docker version`
     validations:
       required: true
+    render: bash
   - type: textarea
     id: info
     attributes:
@@ -42,6 +43,7 @@ body:
       description: Output of `docker info`
     validations:
       required: true
+     render: bash
   - type: textarea
     id: additional
     attributes:
