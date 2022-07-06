@@ -43,7 +43,7 @@ body:
       description: Output of `docker info`
     validations:
       required: true
-     render: bash
+    render: bash
   - type: textarea
     id: additional
     attributes:
